@@ -1,0 +1,54 @@
+.place-form__content{
+
+    width: 80%;
+    max-width: 50rem;
+    margin: 3rem auto;
+
+}
+
+.place-form__content__title{
+    margin-left: 32%;
+    font-size: 800;
+    font-size: large;
+}
+
+.place-form__content__body{
+
+    width: 100%;
+
+}
+
+.place-form__content__body__accordian{
+
+    width: 100%;
+    margin: 2rem 0;
+
+}
+
+.place-form__content__body__accordian__accordian-details{
+
+    width: 100%;
+
+}
+
+.place-form__content__body__accordian__accordian-details__form-control{
+
+    width: 100%;
+
+}
+
+
+@media(min-width: 768px){
+
+    .place-form__content__title{
+        margin-left: 38%;
+        font-size:x-large;
+        font-weight: 500;
+    }
+}
+
+.place-form__content__image-upload{
+
+    width: 100%;
+
+}

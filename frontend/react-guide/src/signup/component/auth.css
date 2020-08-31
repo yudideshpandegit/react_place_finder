@@ -1,0 +1,56 @@
+.login-portal{
+    width: 80%;
+    max-width: 40rem;
+    margin: 5rem auto;
+    padding: 2%;
+}
+
+.login-portal__content div{
+       
+    margin: 2rem 0;
+
+}
+
+.login-portal__title{
+
+    margin: 0 40%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.login-portal hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+.login-portal__content button{
+
+    margin: 0 auto;
+
+}
+
+.login-portal__switch-to-login p{
+    color:#0645AD;
+    margin: 0 auto;
+    font-size: large;
+    cursor: pointer;
+}
+
+.login-portal__content__error{
+    padding: 0;
+    color: red;
+}
+
+@media(min-width: 768px){
+
+    .login-portal__title{
+
+        margin: 0 40%;
+        font-size: 2rem;
+        font-weight: 500;
+    }   
+}

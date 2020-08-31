@@ -1,0 +1,48 @@
+.image-upload{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+
+
+}
+
+
+
+.image-upload__prev{
+
+    width: 13rem;
+    height: 13rem;
+    border: 0.5px solid black;
+    margin: 2rem;
+}
+
+.image-upload__button{
+
+    width: 8rem;
+    margin: 2rem 28%;
+
+}
+
+.image-upload__prev__image{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px){
+
+    .image-upload__prev{
+        margin: 0 35%;
+    }
+    
+    .image-upload__button{
+    
+        width: 8rem;
+        margin: 5rem 42%;
+    
+    }
+
+
+}
